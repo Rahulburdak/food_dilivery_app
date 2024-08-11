@@ -1,0 +1,229 @@
+.login-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input-wrapper{
+  margin:10px 0;
+  padding: 5px;
+  width: 350px;
+  max-width: 300px;
+  border-radius: .5rem;
+  border: 1px solid black;
+}
+.btn-wrapper{
+  margin:10px 0;
+  padding: 5px;
+  
+  border-radius: .5rem;
+  border: 1px solid black;
+  background-color: rgb(244, 12, 12);
+}
+.btn-wrapper:hover{
+  cursor: pointer;
+  background-color: grey;
+}
+.btn-no-border:hover{
+  cursor: pointer;
+  background-color: grey;
+}
+
+.btn-no-border{
+  margin:10px 0;
+  padding: 7px;
+  text-align: center;
+  border-radius: .5rem;
+  border: none;
+  color: darkblue;
+  text-decoration: underline;
+  
+}
+.btn-no-border-div{
+  text-align: center;
+}
+.main-page-wrapper, .restorent-page-wrapper{
+  background-image: url("https://a.storyblok.com/f/88809/1150x450/30a9c4f9a6/igevia_header_fastfood01_450.jpg");
+  /* width: 100%; */
+  
+  /* height: 230px; */
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+  text-align: center;
+  background-color: rgb(0, 0, 0,.5);
+  background-blend-mode: multiply;
+  color: white;
+  padding: 60px;
+}
+.input-main-wrapper{
+  padding: 10px;
+  background-color: white;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.location-input{
+  border: none;
+  width: 23%;
+}
+.search-wrapper{
+  border: none;
+  border-left:1px solid black ;
+  width: 45%;
+  height: 30px;
+  padding-left:10px ;
+}
+
+*:focus{
+  outline: none;
+}
+.locations-select {
+  color: black;
+  position: absolute;
+  list-style-type: none;
+  background-color: white;
+  width:180px;
+  margin: 0;
+  margin-top: 8px;
+  margin-left: -10px;
+  border-radius: 6px;
+  padding: 0;
+}
+.list {
+
+  margin: 10px;
+  border-left: .01px solid grey;
+  border-right: .01px solid grey;
+  border-bottom: .011px solid grey;
+  margin: 0px;
+  padding: 5px;
+}
+.initial-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+  margin-bottom: 400px;
+}
+.card-wrapper {
+  background-color: rgb(242, 166, 66);
+  margin: 10px;
+  width: 45%;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+.restorent-page-wrapper h1{
+  font-size: xx-large;
+  background-color: white;
+  max-width: max-content;
+  border-radius: 5px;
+  color: grey;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+}
+.restorent-details {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  background-color: orange;
+}
+.food-items-wrapper{
+  padding: 10px
+}
+.food-items-wrapper .food-item {
+  padding: 20px;
+  display: flex;
+  border-bottom: 1px solid orange;
+  color: orange;
+  margin: 20px;
+}
+.food-items-wrapper .food-details{
+  padding-left: 20px;
+}
+.food-items-wrapper .food-details .description{
+  font-size:x-small;
+  font-weight:light;
+}
+.food-items-wrapper .food-item .food-image{
+  width: 100px;
+  border-radius: 4px;
+}
+.food-items-wrapper .food-details button{
+
+    border: none;
+    background-color: orange;
+    padding: 5px;
+    border-radius: 4px;
+    margin-top: 4px;
+    cursor: pointer;
+
+}
+#item-block1{
+  width: 20%;
+}
+#item-block2{
+  width: 60%;
+}
+#item-block3{
+  width: 20%;
+}
+.total-price-wrapper{
+  display: flex;
+  padding: 30px;
+}
+.total-price-wrapper .row {
+  font-size: larger;
+  font-weight: bold;
+  color: orange;
+  display: flex;
+  justify-content: space-between;
+}
+.total-price-wrapper .block-1{
+ width: 40%;
+}
+.total-price-wrapper .block-2{
+  width: 20%;
+  margin-left: 100px;
+}
+.total-price-wrapper .block-2 button {
+  padding: 10px;
+  border: none;
+  background-color: orange;
+  color: white;
+  border-radius: 4px;
+ cursor: pointer;
+}
+.order-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  color: orange;
+ 
+}
+.order-item-wrapper .card {
+  
+  background-color: orange;
+  margin: 10px auto;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  padding: 30px;
+}
+.card .card-1 {
+  font-size: 25px;
+  font-weight: bold;
+}
+.card .card-2{
+  margin-top: 20px;
+}
+
+
+
+
+
+

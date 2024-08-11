@@ -1,0 +1,10 @@
+{
+  "/page": "app/page.js",
+  "/user-auth/page": "app/user-auth/page.js",
+  "/restorent/page": "app/restorent/page.js",
+  "/explore/[name]/page": "app/explore/[name]/page.js",
+  "/restorent/dashboard/page": "app/restorent/dashboard/page.js",
+  "/restorent/dashboard/[id]/page": "app/restorent/dashboard/[id]/page.js",
+  "/api/custmers/locations/route": "app/api/custmers/locations/route.js",
+  "/api/custmers/route": "app/api/custmers/route.js"
+}

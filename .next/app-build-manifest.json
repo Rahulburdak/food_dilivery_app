@@ -1,0 +1,51 @@
+{
+  "pages": {
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/user-auth/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/user-auth/page.css",
+      "static/chunks/app/user-auth/page.js"
+    ],
+    "/restorent/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/restorent/page.css",
+      "static/chunks/app/restorent/page.js"
+    ],
+    "/restorent/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/restorent/loading.js"
+    ],
+    "/explore/[name]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/explore/[name]/page.css",
+      "static/chunks/app/explore/[name]/page.js"
+    ],
+    "/restorent/dashboard/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/restorent/dashboard/page.css",
+      "static/chunks/app/restorent/dashboard/page.js"
+    ],
+    "/restorent/dashboard/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/restorent/dashboard/[id]/page.css",
+      "static/chunks/app/restorent/dashboard/[id]/page.js"
+    ]
+  }
+}
